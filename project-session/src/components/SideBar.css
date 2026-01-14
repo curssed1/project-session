@@ -1,0 +1,30 @@
+.SideBarContainer{
+    background-color: white;
+    border-right: 1px solid lightgrey;
+    width: 260px;
+    height: 100vh;
+}
+.Title{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+}
+.CashIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(130, 72, 244);
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.FinDash{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Sections{
+    color: black;
+}
