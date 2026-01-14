@@ -8,14 +8,11 @@ const SideBar = () => {
         <div className='SideBarContainer'>
             <div className='Title'>
                 <div className='CashIcon'><FaMoneyBills  color='white' size={25}/></div>
+                {/* Прошу добавьте правильную иконку и цвет */}
                 <div className='FinDash'>FinDash</div>
             </div>
             <div className='Sections'>
-             {/*    <div>Dashboard</div>
-                <div>Transactions</div>
-                <div>Budgets & Categories</div>
-                <div>Analytics</div>
-                <div>Account Settings</div> */}
+
             </div>
             <div className='PremiumPlan'>
 
