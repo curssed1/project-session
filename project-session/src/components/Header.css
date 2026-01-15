@@ -1,0 +1,46 @@
+.header {
+    background-color: white;
+    height: 70px;
+    width: 1450px;
+    margin-left: 260px;
+    border-bottom: 1px solid lightgrey;
+
+}
+
+.input {
+    background-color: white;
+    margin-top: 15px;
+    margin-left: -5px;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    padding-left: 40px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-icon {
+    position: relative;
+    left: 30px;
+    top: 7px;
+    color: rgb(182, 182, 182);
+}
+
+.bell-icon {
+    position: relative;
+    top: 5px;
+    left: 1080px;
+    color: rgb(182, 182, 182);
+    cursor: pointer;
+}
+
+.fiol {
+    background-color: rgb(104, 43, 226);
+    width: 10px;
+    height: 10px;
+    border-radius: 40px;
+    position: relative;
+    top: -40px;
+    left: 1420px;
+}
