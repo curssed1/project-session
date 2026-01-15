@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(130, 72, 244);
+    background-color: #7341ff;
     width: 40px;
     height: 40px;
     border-radius: 40px;
@@ -30,20 +30,108 @@
     justify-content: center;
 }
 .SectionContainer{
-    color: black;
     width: 220px;
     height: 300px; 
 }
 .Section{
+    cursor: pointer;
     display: flex;
     align-items: center;
     padding-left: 20px;
     width: 220px;
     min-height: 50px;
     height: fit-content;
-    background-color: aqua;
     border-radius: 30px;
     margin-top: 10px;
     gap: 10px;
-    font-size: 500;
+    font-size: 18px;
+    font-weight: 400;
+}
+.Chosen{
+    color: #735dff;
+    background-color: #f3f1ff;
+}
+.NotChosen{
+    color: #67676c;
+    transition: 0.3s;
+}
+.NotChosen:hover{
+    background-color: #ebebeb;
+}
+.PremiumPlan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.PremiumPlanContainer{
+    width: 230px;
+    height: 150px;
+    background-color: #f3f1ff;
+    position: absolute;
+    bottom: 100px;
+    border-radius: 30px;
+}
+.PremiumPlanText{
+    padding: 15px;
+    font-size: 15px;
+}
+h3{
+    color: #343434;
+    font-weight: 300;
+}
+p{
+    color: #7f7f83;
+}
+.UpgradeButtonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.UpgradeButton{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    background-color: #7341ff;;
+    border-radius: 20px;
+}
+button{
+    cursor: pointer;
+    border: none;
+    background-color: #7341ff;
+    font-size: 16px;
+}
+.Account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AccountContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 230px;
+    height: 60px;
+    position: absolute;
+    bottom: 15px;
+    border-radius: 25px;
+    transition: 0.3s;
+    font-size: 15px;
+    padding: 10px;
+}
+.AccountContainer:hover{
+    background-color: #ebebeb;
+}
+.ImTiredBoss{
+    font-size: 12px;
+}
+.Spider-Man{
+    border-radius: 50px;
+    border: 1px solid #67676c;
+}
+.AccountText{
+    position: absolute;
+    right: 80px;
 }
