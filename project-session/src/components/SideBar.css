@@ -24,7 +24,26 @@
     font-size: 20px;
     font-weight: 600;
 }
-
 .Sections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SectionContainer{
     color: black;
+    width: 220px;
+    height: 300px; 
+}
+.Section{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 220px;
+    min-height: 50px;
+    height: fit-content;
+    background-color: aqua;
+    border-radius: 30px;
+    margin-top: 10px;
+    gap: 10px;
+    font-size: 500;
 }
