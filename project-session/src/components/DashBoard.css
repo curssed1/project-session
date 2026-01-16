@@ -1,0 +1,130 @@
+.DashBoardContainer{
+    width: 1230px;
+    height: 300px;
+    color: black;
+}
+.DashBoardInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 30px;
+}
+.DashBoardCalendar{
+    display: flex;
+    align-items: center;
+}
+.CalendarButton{
+    display: flex;
+    align-items: center;
+}
+.DashBoardText{
+    font-size: 25px;
+    font-weight: 600;
+}
+.PlusButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #7341ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.PlusButton:hover{
+    background-color: #5d32d2;
+}
+.CalendarButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+    gap: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.CalendarButton:hover{
+    background-color: #ebebeb;
+}
+.DashBoardBanners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.Banner{
+    width: 275px;
+    height: 165px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+.BannerName{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+.BannerText{
+    padding-left: 20px;
+}
+h1{
+    font-weight: 530;
+}
+.GreenText{
+    color: #29c55e;
+    font-size: 15px;
+}
+.RedText{
+    color: #ef4444;
+    font-size: 15px;
+}
+.TrendingUp{
+    width: 30px;
+    height: 40px;
+    border-radius: 30px;
+    color: #16a353;
+    background-color: #dcfce7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MoneyBills{
+    width: 30px;
+    height: 40px;
+    border-radius: 30px;
+    color: #6365ff;
+    background-color: #e9e5ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ShoppingCart{
+    width: 30px;
+    height: 40px;
+    border-radius: 30px;
+    color: #dc2626;
+    background-color: #fee2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Bank{
+    width: 30px;
+    height: 40px;
+    border-radius: 30px;
+    color: #3c70ec;
+    background-color: #dbeafe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,4 +1,3 @@
-import React from "react";
 import "./Header.css";
 import { IoIosSearch } from "react-icons/io";
 import { AiOutlineBell } from "react-icons/ai";
