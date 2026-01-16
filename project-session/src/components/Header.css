@@ -1,7 +1,7 @@
 .header {
     background-color: white;
     height: 70px;
-    width: 1233px;
+    width: 1400px;
     margin-left: 260px;
     border-bottom: 1px solid lightgrey;
     align-items: center;
@@ -31,7 +31,7 @@
 .bell-icon {
     position: relative;
     top: 5px;
-    left: 860px;
+    left: 1030px;
     color: rgb(182, 182, 182);
     cursor: pointer;
 }
@@ -43,5 +43,5 @@
     border-radius: 40px;
     position: relative;
     top: -40px;
-    left: 1200px;
+    left: 1370px;
 }
