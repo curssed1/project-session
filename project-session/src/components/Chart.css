@@ -1,5 +1,10 @@
 .ChartsContainer{
     width: 1230px;
     height: 430px;
-    background-color: aqua;
+    /* background-color: aqua; */
+}
+.ChartOne{
+    background-color: white;
+    width: 800px;
+    height: 400px;
 }

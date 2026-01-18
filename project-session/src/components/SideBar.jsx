@@ -10,7 +10,7 @@ import { RxExit } from "react-icons/rx";
 
 const SideBar = () => {
     return(
-        <div className='SideBarContainer'>
+        <aside className='SideBarContainer'>
             <div className='Title'>
                 <div className='CashIcon'><FaMoneyBills  color='white' size={25}/></div>
                 <div className='FinDash'>FinDash</div>
@@ -48,7 +48,7 @@ const SideBar = () => {
                     <RxExit color='black' size={20} fontWeight={600}/>
                 </div>
             </div>
-        </div>
+        </aside>
     )
 }
 export default SideBar

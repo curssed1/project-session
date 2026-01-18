@@ -6,17 +6,21 @@ import Chart from './components/Chart'
 import Table from './components/Table'
 
 function App() {
-  return (
-    <>
-        <div className="container">
-            <Header/>
-            <DashBoard/>
-            <Chart/>
-            <Table/>
-        </div>
-    </>
-  )
+    return (
+        <>
+            <div className='App'>
+                <aside>
+                    <SideBar/>
+                </aside>
+                <main>
+                    <Header/>
+                    <DashBoard/>
+                    <Chart/>
+                    <Table/>
+                </main>
+            </div>
+        </>
+    )
 }
 
 export default App
-/* <SideBar/> */
