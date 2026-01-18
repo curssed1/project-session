@@ -3,9 +3,6 @@ import { IoIosSearch } from "react-icons/io";
 import { AiOutlineBell } from "react-icons/ai";
 
 
-
-
-
 const Header = () => {  
   return (
     <header className="header">
