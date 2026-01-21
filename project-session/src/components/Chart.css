@@ -1,5 +1,5 @@
 .ChartsContainer{
-    width: 1220px;
+    width: 100%;
     height: 440px;
     margin-left: 260px;
     display: flex;
@@ -8,19 +8,35 @@
 }
 .ChartOne{
     margin-left: 30px;
-    width: 750px;
+    width: 55%;
     height: 440px;
     background-color: white;
     border: 1px solid lightgrey;
     border-radius: 30px;
 }
 .ChartTwo{
-    width: 390px;
+    width: 27%;
     height: 440px;
     background-color: white;
     border: 1px solid lightgrey;
     border-radius: 30px;
 }
+
+@media screen and (max-width: 1200px) {
+    .ChartsContainer{
+        flex-direction: column;
+        height: auto;
+        margin-left: 0px;
+    }
+    .ChartOne, .ChartTwo{
+        width: 70%;
+        margin-left: 300px;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    
+}
+
 .ChartOneTitle{
     display: flex;
     align-items: center;

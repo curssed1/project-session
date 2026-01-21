@@ -127,13 +127,12 @@ button{
 .ImTiredBoss{
     font-size: 12px;
 }
-.Spider-Man{
+.Friendly-Thug{
     border-radius: 50px;
-    border: 1px solid #67676c;
 }
 .AccountText{
     position: absolute;
-    right: 80px;
+    right: 60px;
 }
 .SideBarContainer{
     position: sticky;

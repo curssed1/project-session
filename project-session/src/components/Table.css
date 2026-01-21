@@ -4,8 +4,7 @@
 }
 .Table{
     background-color: white;
-    width: 1160px;
-    height: 480px;
+    width: 100%;
     border: 1px solid lightgray;
     border-radius: 30px;
 }
@@ -44,7 +43,8 @@ th{
     font-weight: 400;
 }
 .thName{
-    padding: 15px 220px 15px 20px;
+    padding: 15px 420px 15px 20px;
+    width: 100%;
 }
 tbody{
     color: black;
@@ -62,7 +62,7 @@ tr:hover{
     justify-content: center;
     background-color: #dcfce7;
     color: #166534;
-    width: 90px;
+;
     height: 25px;
     border-radius: 50px;
     font-size: 13px;
@@ -78,7 +78,6 @@ tr:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30px;
     height: 30px;
     border-radius: 30px;
     background-color: #c8e0ff;

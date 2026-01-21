@@ -5,7 +5,7 @@ import { LuLayoutDashboard } from "react-icons/lu";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
 import { PiShapes } from "react-icons/pi";
 import { IoReceiptOutline } from "react-icons/io5";
-import { GiSpiderMask } from "react-icons/gi";
+import { CgProfile } from "react-icons/cg";
 import { RxExit } from "react-icons/rx";
 
 const SideBar = () => {
@@ -39,10 +39,9 @@ const SideBar = () => {
             </div>
             <div className='Account'>
                 <div className='AccountContainer'>
-                    <GiSpiderMask color='black' size={40} className='Spider-Man'/>
-                    {/* Оставьте человека паука */}
+                    <CgProfile color='black' size={40} className='Friendly-Thug'/>
                     <div className='AccountText'>
-                        <h3>Peter Parker</h3>
+                        <h3>Friendly Thug</h3>
                         <p className='ImTiredBoss'>Personal account</p>
                     </div>
                     <RxExit color='black' size={20} fontWeight={600}/>

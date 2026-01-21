@@ -12,12 +12,12 @@ function App() {
                 <aside>
                     <SideBar/>
                 </aside>
-                <main>
+                <div style={{width:'100%'}}>
                     <Header/>
                     <DashBoard/>
                     <Chart/>
                     <Table/>
-                </main>
+                </div>
             </div>
         </>
     )

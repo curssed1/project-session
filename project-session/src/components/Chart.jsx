@@ -18,6 +18,7 @@ const Chart = () => {
             <div className="ChartTwo">
 
             </div>
+            
         </div>
     );
 }
